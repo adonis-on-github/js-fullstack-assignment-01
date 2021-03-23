@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "npx rimraf node_modules public/css",
-    "dev": "npx tailwindcss build src/css/app.css -o public/css/app.css"
+    "dev": "npx tailwindcss build src/css/app.css -o public/css/app.css",
+    "start": "vite serve public"
   },
   "keywords": [
     "html",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "postcss-cli": "^8.3.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "vite": "^2.1.2"
   }
 }
